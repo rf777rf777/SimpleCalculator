@@ -12,6 +12,8 @@
 		3B4EC09E1FC1D29D0004590F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4EC09C1FC1D29D0004590F /* Main.storyboard */; };
 		3B4EC0A01FC1D29D0004590F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4EC09F1FC1D29D0004590F /* Assets.xcassets */; };
 		3B4EC0A31FC1D29D0004590F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4EC0A11FC1D29D0004590F /* LaunchScreen.storyboard */; };
+		3B4EC0B41FC1EE770004590F /* kenvector_future_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B4EC0B31FC1EE770004590F /* kenvector_future_thin.ttf */; };
+		3B4EC0B61FC2C1F10004590F /* OperatorSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4EC0B51FC2C1F10004590F /* OperatorSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3B4EC09F1FC1D29D0004590F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4EC0A21FC1D29D0004590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B4EC0A41FC1D29D0004590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4EC0B31FC1EE770004590F /* kenvector_future_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kenvector_future_thin.ttf; sourceTree = "<group>"; };
+		3B4EC0B51FC2C1F10004590F /* OperatorSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		3B4EC0971FC1D29D0004590F /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				3B4EC0B31FC1EE770004590F /* kenvector_future_thin.ttf */,
 				3B4EC0981FC1D29D0004590F /* AppDelegate.swift */,
 				3B4EC09A1FC1D29D0004590F /* ViewController.swift */,
+				3B4EC0B51FC2C1F10004590F /* OperatorSymbol.swift */,
 				3B4EC09C1FC1D29D0004590F /* Main.storyboard */,
 				3B4EC09F1FC1D29D0004590F /* Assets.xcassets */,
 				3B4EC0A11FC1D29D0004590F /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				3B4EC0A31FC1D29D0004590F /* LaunchScreen.storyboard in Resources */,
 				3B4EC0A01FC1D29D0004590F /* Assets.xcassets in Resources */,
+				3B4EC0B41FC1EE770004590F /* kenvector_future_thin.ttf in Resources */,
 				3B4EC09E1FC1D29D0004590F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4EC0B61FC2C1F10004590F /* OperatorSymbol.swift in Sources */,
 				3B4EC09B1FC1D29D0004590F /* ViewController.swift in Sources */,
 				3B4EC0991FC1D29D0004590F /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y553K36BGW;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syashin.Calculator;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y553K36BGW;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syashin.Calculator;
